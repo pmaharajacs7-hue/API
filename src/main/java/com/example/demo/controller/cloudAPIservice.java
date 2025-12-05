@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.cloudvendor;
 @RestController
-@RequestMapping("/")
+@RequestMapping("/vendor")
 public class cloudAPIservice {
     cloudvendor cloudvendor;
     @GetMapping("{vendorId}")
